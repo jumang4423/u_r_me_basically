@@ -1,7 +1,7 @@
 
 <h1 align="center"> <a href="#english">english</a> |<a href="#japanese">日本語</a></h1>
 
-![README LOGO](_design/bk.png)
+<!-- ![README LOGO](_design/bk.png) -->
 #  u r me basically
 
 - r u me?
