@@ -4,10 +4,10 @@ require("dotenv").config({
 const path = require("path");
 
 module.exports = {
-  pathPrefix: "/jumang-potaru",
+  pathPrefix: "/umebadically",
   siteMetadata: {
-    title: `jumang potaru`,
-    description: `generic cringe portfolio site`,
+    title: `u r me basically`,
+    description: `r u me basically?`,
     author: `jumang`,
     siteURL: "/",
   },
@@ -59,8 +59,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jumang potaru`,
-        short_name: `jumang-potaru`,
+        name: `u r me basically`,
+        short_name: `umebadically`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
@@ -69,18 +69,18 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-source-microcms",
-      options: {
-        apiKey: process.env.X_API_KEY,
-        serviceId: 'jumang',
-        apis: [{
-          endpoint: 'potaru-cms',
-          query: {
-            limit: 100,
-          },
-        }],
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-microcms",
+    //   options: {
+    //     apiKey: process.env.X_API_KEY,
+    //     serviceId: 'jumang',
+    //     apis: [{
+    //       endpoint: 'potaru-cms',
+    //       query: {
+    //         limit: 100,
+    //       },
+    //     }],
+    //   },
+    // },
   ],
 }
